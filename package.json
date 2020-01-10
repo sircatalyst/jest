@@ -4,11 +4,15 @@
 	"description": "Jesting",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"testWatch": "jest --watchAll"
 	},
 	"author": "Temitope Bamidele",
 	"license": "ISC",
 	"devDependencies": {
 		"jest": "^24.9.0"
+	},
+	"dependencies": {
+		"axios": "^0.19.1"
 	}
 }
